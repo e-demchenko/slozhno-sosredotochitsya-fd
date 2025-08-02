@@ -164,7 +164,9 @@
   color: var(--h2-title-color);
   margin-block-end: 20px;
 }
-
+.article_title {
+  margin-block-end: 20px;
+}
 .h4-title {
   margin-block-end: 10px;
   font-size: 18px;
@@ -175,8 +177,12 @@
 }
 
  .how-to-concentrate__title .h4-title {
-    margin-block-end: 20px;
+    margin-block-end: 10px;
   }
+
+  .article_title {
+  margin-block-end: 20px;
+}
 
 .main-text {
   color: var(--main-text);
