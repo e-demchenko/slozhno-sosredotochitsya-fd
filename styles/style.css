@@ -15,7 +15,7 @@
   background-attachment: fixed;
   padding: 10px;
   padding-inline-end: 10px;
-  margin-block-end: 20px;
+  margin-block-end: 40px;
 }
 
 .decorated-zone::before {
@@ -135,7 +135,7 @@
 .sub-title {
   grid-row: 3;
   align-self: center;
-  block-size: 117px;
+  block-size: min-content;
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
@@ -238,7 +238,7 @@
     grid-template-rows: 1fr min-content 1fr;
     position: relative;
     padding: 20px;
-    margin-block-end: 40px;
+    margin-block-end: 60px;
   }
   .decorated-zone::before {
     top: 20px;
