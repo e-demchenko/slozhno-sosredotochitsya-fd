@@ -164,9 +164,7 @@
   color: var(--h2-title-color);
   margin-block-end: 20px;
 }
-.article_title {
-  margin-block-end: 20px;
-}
+
 .h4-title {
   margin-block-end: 10px;
   font-size: 18px;
