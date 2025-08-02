@@ -1,5 +1,6 @@
 .page {
   background-color: var(--bg-color);
+  /* background-attachment: fixed; */
 }
 
 .header {
@@ -105,7 +106,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--nav-decorative-color);
+  border: 1px solid var(--hover-color);
 }
 
 .header__theme-menu-button:active {
@@ -161,7 +162,7 @@
   font-size: 18px;
   line-height: 23.4px;
   color: var(--accent-color);
-  margin-block-end: 15px;
+  margin-block-end: 20px;
 }
 
 .h4-title {
