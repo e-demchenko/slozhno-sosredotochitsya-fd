@@ -150,6 +150,7 @@
   margin-inline-start: 10px;
   margin-inline-end: 10px;
 }
+
 .article {
   display: flex;
   flex-direction: column;
@@ -194,7 +195,16 @@
 
 .accent-text {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 1px 2px 0 var(--accent-color);
+  outline: none;
+}
+
+.accent-text:hover {
+  border-bottom: 1px solid currentColor;
+}
+
+.accent-text:focus {
+  border: 1px solid currentColor;
 }
 
 .section-decoration {
@@ -405,6 +415,12 @@
 }
 
 @media (width >= 1024px) {
+  .section-decoration {
+    margin-inline: auto;
+    max-width: 100%;
+    justify-self: center;
+  }
+
   .header__theme-menu {
     grid-column: 1 / 3;
     align-self: start;
@@ -434,7 +450,7 @@
 
   .reduces-concentration {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 315px);
+    grid-template-columns: repeat(3, 315px);
     gap: 19.3px;
   }
 
@@ -460,7 +476,7 @@
 
   .how-to-concentrate {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 315px);
+    grid-template-columns: repeat(3, 315px);
     grid-template-rows: repeat(6, auto);
     gap: 20px;
   }

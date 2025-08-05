@@ -7,12 +7,13 @@
   --sub-title-color: rgba(0, 0, 40, 1);
   --main-text:rgba(241, 178, 206, 1);
   --section-heading-color:rgba(255, 0, 112, 1);
+  --hover-color:rgba(255, 0, 112, 0.4);
 }
 
-:root.theme-dark.record {
+:root.theme-dark .record {
     display: inline;
   }
-:root.theme-dark.record::after {
+:root.theme-dark .record::after {
     display: inline;
   }
 
@@ -26,5 +27,6 @@
   --sub-title-color: rgba(0, 0, 40, 1);
   --main-text:rgba(241, 178, 206, 1);
   --section-heading-color:rgba(255, 0, 112, 1);
+  --hover-color:rgba(255, 0, 112, 0.4);
   }
 }
